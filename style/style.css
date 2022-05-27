@@ -18,6 +18,9 @@ button {
     border: none;
     background: none;
 }
+input {
+    border: none;
+}
 /* BASIC CONF */
 
 /* UNIQUE CONF */
@@ -250,3 +253,148 @@ button {
     margin-top: 15px;
 }
 /* PRACTICE SECTION */
+/* ABOUT SECTION */
+.about {
+    padding: 100px 0;
+    background: #FFFFFF;
+}
+.about_title {
+    text-align: center;
+    width: 477px;
+    margin: 0 auto;
+}
+.about_desc {
+    width: 511px;
+    margin: 15px auto 100px;
+}
+.about_video {
+    position: relative;
+    width: 597px;
+    height: 442px;
+}
+.about_video::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%);
+}
+.about_video img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+.about_video svg {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.about_content {
+    padding-top: 20px;
+    width: 333px;
+}
+.about_content .section_desc {
+    text-align: left;
+    margin: 10px 0 20px;
+}
+.about_content .d-flex {
+    margin-top: 30px;
+}
+.about_content svg {
+    margin-right: 20px;
+}
+.about_sm-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-bottom: 5px;
+}
+.about_sm-desc {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+/* ABOUT SECTION */
+/* CLIENTS SECTION */
+.clients_top {
+    height: 262px;
+    background: #FAFAFA;
+}
+.clients_grid {
+    height: 175px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    grid-column-gap: 30px;
+}
+.clients_bottom {
+    position: relative;
+    height: 77px;
+    background: #252B42;
+}
+.clients_form {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    margin: 0 auto;
+    background: #16697A;
+    width: 986px;
+    height: 124px;
+    padding: 0 50px;
+}
+.clients_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    width: 270px;
+}
+.clients_inp {
+    width: 333px;
+    border-radius: 5px 0 0 5px;
+    height: 58px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    background: #F9F9F9;
+    padding: 0 20px;
+    border: 1px solid #E6E6E6;
+    outline:none;
+}
+.clients_inp:placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.clients_subscribe {
+    background: #FFA62B;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+    width: 117px;
+    height: 58px;
+    margin-left: -1px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+/* CLIENTS SECTION */
